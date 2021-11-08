@@ -82,7 +82,7 @@ $ curl -X POST -H 'Content-type: application/json' -d '{"title": "My title", "co
 **Create a new comment**:
 
 ```console
-$ curl -X POST -H 'Content-type: application/json' -d '{"name": "YuKitAs", "message": "My message"}' localhost:3000/posts/1/comments
+$ curl -X POST -H 'Content-type: application/json' -d '{"name": "DagasonHackason", "message": "My message"}' localhost:3000/posts/1/comments
 ```
 
 The `name` field is optional with default value `anonym`.
@@ -96,7 +96,7 @@ $ curl -X PUT -H 'Content-type: application/json' -d '{"title": "My new title", 
 **Update an existing comment by id**:
 
 ```console
-$ curl -X PUT -H 'Content-type: application/json' -d '{"name": "YuKitAs", "message": "My new message"}' localhost:3000/posts/2/comments/1
+$ curl -X PUT -H 'Content-type: application/json' -d '{"name": "DagasonHackason", "message": "My new message"}' localhost:3000/posts/2/comments/1
 ```
 
 **Delete an existing post by id**:
