@@ -1,5 +1,3 @@
-# rails-rest-api-test
-
 # Rails Rest API Test
 
 ## Project Setup
